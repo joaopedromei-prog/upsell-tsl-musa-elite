@@ -1,0 +1,76 @@
+{
+  "titulo": "Selo de Garantia de 30 Dias — Acompanhamento Musa Elite",
+  "objetivo": "Gerar um selo/medalha de garantia incondicional de 30 dias para uma página de vendas de coaching fitness feminino. Deve transmitir confiança, segurança e que 'o risco é todo do vendedor'.",
+
+  "prompt_pronto_para_colar": "Um selo/medalha vetorial moderno de garantia de 30 dias para uma marca de fitness feminino. Formato circular de medalhão com borda serrilhada estilo selo de certificado, em gradiente verde (#1FB85E para #16A34A) com finos acentos em rosa (#EC4899) e detalhes em dourado suave. No centro, bem grande e legível, o número '30' e abaixo a palavra 'DIAS'. Em arco na parte superior do círculo, o texto 'GARANTIA INCONDICIONAL'. Uma fita/ribbon curvada cruzando a parte de baixo do selo com o texto 'SATISFAÇÃO GARANTIDA'. Um pequeno ícone de check (✓) ou escudo integrado ao design. Tipografia geométrica sans-serif limpa, em negrito, estilo Inter. Estilo flat design premium com leve profundidade e sombra suave, traços nítidos, alta qualidade, simétrico e centralizado. Fundo 100% transparente (PNG). Apenas o selo, sem cenário, sem mockup, sem mãos, sem produto ao redor.",
+
+  "assunto": "Selo / medalha / emblema de garantia de 30 dias (money-back)",
+
+  "estilo_visual": {
+    "estetica": "flat design premium / vetor moderno, com leve profundidade (soft 3D sutil) e sombra suave",
+    "referencia": "selo de certificado oficial + emblema de garantia de e-commerce, mas com toque feminino e energético de marca fitness",
+    "acabamento": "traços limpos e nítidos, simétrico, centralizado, alta resolução"
+  },
+
+  "formato_e_composicao": {
+    "forma_principal": "medalhão circular com borda serrilhada (estilo selo de cera / star-burst)",
+    "elemento_central": "número '30' em destaque com 'DIAS' logo abaixo",
+    "ribbon": "fita curvada cruzando a base do selo com o texto da garantia",
+    "icone_de_apoio": "check (✓) ou escudo discreto integrado, reforçando confiança",
+    "enquadramento": "selo centralizado, ocupando ~85% do quadro, com respiro nas bordas",
+    "proporcao": "1:1 (quadrado)",
+    "fundo": "transparente (PNG, sem cor de fundo)"
+  },
+
+  "paleta_de_cores": {
+    "principal_verde": "#16A34A",
+    "verde_claro_gradiente": "#1FB85E",
+    "verde_escuro_sombra": "#15803D",
+    "acento_rosa_marca": "#EC4899",
+    "detalhe_dourado_suave": "#E6B800",
+    "texto_interno": "#FFFFFF",
+    "observacao": "Verde domina (confiança/garantia). Rosa entra só como acento fino (fita, contorno ou brilho), conectando à identidade da marca."
+  },
+
+  "tipografia": {
+    "familia": "sans-serif geométrica, limpa e bold (estilo Inter / Montserrat)",
+    "peso": "extra-bold para os números, bold para os textos em arco",
+    "observacao": "Texto curto e em caixa alta para reduzir erro de renderização"
+  },
+
+  "textos_exatos_no_selo": {
+    "destaque_central": "30",
+    "abaixo_do_numero": "DIAS",
+    "arco_superior": "GARANTIA INCONDICIONAL",
+    "fita_inferior": "SATISFAÇÃO GARANTIDA",
+    "atencao": "Os geradores de imagem costumam errar texto. Use exatamente estas palavras, curtas e em maiúsculas. Se possível, gerar versões e escolher a com a grafia correta — ou deixar o selo só com '30 DIAS' e adicionar os demais textos depois no editor."
+  },
+
+  "iluminacao_e_efeitos": {
+    "iluminacao": "luz suave frontal, leve brilho/realce na parte superior do metal/selo",
+    "sombra": "sombra projetada suave por baixo para dar profundidade (drop shadow leve)",
+    "textura": "lisa, sem ruído; pode ter um leve degradê para volume"
+  },
+
+  "evitar": [
+    "fundo sólido ou cenário (precisa ser transparente)",
+    "mockups, mãos segurando, produtos ao redor",
+    "texto borrado, distorcido ou com erros de ortografia",
+    "excesso de elementos, poluição visual",
+    "fotorrealismo / foto de pessoa",
+    "marcas d'água, logos de terceiros",
+    "cores fora da paleta (azul, roxo escuro, vermelho)"
+  ],
+
+  "saida_tecnica": {
+    "formato_arquivo": "PNG com transparência",
+    "resolucao": "1024x1024 (quadrado)",
+    "uso": "Substituir o selo CSS '.guarantee-seal' na seção de garantia da página (index.html). Salvar como assets/garantia-30-dias.png"
+  },
+
+  "variacoes_sugeridas": [
+    "Versão A: medalhão circular clássico com fita (descrita acima)",
+    "Versão B: escudo (shield) com check grande e '30 DIAS' no centro",
+    "Versão C: selo minimalista só com '30 DIAS' + check, para um visual mais clean"
+  ]
+}
