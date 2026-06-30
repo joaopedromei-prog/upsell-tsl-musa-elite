@@ -542,6 +542,9 @@ strong { font-weight: 700; }
 }
 .price-arrow { font-size: 1.5rem; color: var(--pink); font-weight: 800; margin: 6px 0; line-height: 1; }
 .price-label { font-size: 1rem; font-weight: 700; color: var(--ink); margin-bottom: 2px; }
+.price-prefix { font-size: 1.05rem; font-weight: 800; color: var(--ink-soft); line-height: 1; margin-bottom: 2px; }
+.price-cash { font-size: 1.125rem; color: var(--ink-soft); margin-bottom: 16px; }
+.price-cash strong { color: var(--ink); font-weight: 800; }
 .price-new {
   font-family: var(--font); font-weight: 900;
   font-size: clamp(3.5rem, 14vw, 5rem);
