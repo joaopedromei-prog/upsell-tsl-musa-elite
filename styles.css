@@ -702,7 +702,7 @@ strong { font-weight: 700; }
 .signature .avatar-ph { width: 64px; height: 64px; font-size: 1.5rem; }
 .testimonial-meta strong { display: block; font-weight: 800; font-size: 1.0625rem; color: var(--ink); }
 .testimonial-meta span { font-size: 0.875rem; color: var(--ink-muted); }
-.stars { color: #FBBF24; font-size: 0.95rem; letter-spacing: 1px; }
+.testimonial-meta .stars { color: #FBBF24; font-size: 0.95rem; letter-spacing: 1px; }
 .testimonial p { font-size: 1rem; color: var(--ink); line-height: 1.6; font-style: italic; }
 
 /* Bolha de WhatsApp */
