@@ -545,6 +545,22 @@ strong { font-weight: 700; }
 .price-prefix { font-size: 1.05rem; font-weight: 800; color: var(--ink-soft); line-height: 1; margin-bottom: 2px; }
 .price-cash { font-size: 1.125rem; color: var(--ink-soft); margin-bottom: 16px; }
 .price-cash strong { color: var(--ink); font-weight: 800; }
+
+/* preço parcelado "12x de" lado a lado com o número grande */
+.price-inst {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.price-inst .price-inst-x {
+  font-size: 0.24em;
+  font-weight: 800;
+  line-height: 1.05;
+  text-align: right;
+  letter-spacing: 0;
+  color: var(--ink-soft);
+}
 .price-new {
   font-family: var(--font); font-weight: 900;
   font-size: clamp(3.5rem, 14vw, 5rem);
